@@ -20,11 +20,7 @@ export const Header = () => {
         { value: 'uz', label: 'Uz' },
         { value: 'ru', label: 'Rus' },
     ];
-    const options2 = [
-        { value: 'Рукнлар', label: 'Рукнлар' },
-        { value: 'Рукнлар', label: 'Рукнлар' },
-    ];
-
+  
     const flags: { [key: string]: JSX.Element } = {
         uz: <UzbekFlag />,
         ru: <RussianFlag />,

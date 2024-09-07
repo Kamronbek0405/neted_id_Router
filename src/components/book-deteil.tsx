@@ -14,7 +14,7 @@ interface BooksCardProps {
     Headphone: React.FC<React.SVGProps<SVGSVGElement>>;
 }
 
-export const BookDeteil: React.FC<BooksCardProps> = ({ id, img, title, description, star: StarIcon, Headphone: HeadphoneIcon }) => {
+export const BookDeteil: React.FC<BooksCardProps> = ({ img, title, description }) => {
     const [selectedButton, setSelectedButton] = useState<number | null>(null);
 
     const handleButtonClick = (buttonIndex: number) => {

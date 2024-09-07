@@ -21,7 +21,6 @@ export const BooksCard: React.FC<BooksCardProps> = ({ id, img, title, descriptio
       <span className='flex items-center justify-between '>
         <StarIcon />
         <HeadphoneIcon />
-
       </span>
       <Link className='mt-2  ml-3 w-[200px] text-blue-500  h-[45px] flex items-center justify-center   rounded-xl '  href={`/books/${id}`}>Malumotlarga otish</Link>
     </div>
