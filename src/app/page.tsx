@@ -1,6 +1,4 @@
-import Image from "next/image";
-import { booksData } from "@/data/data-server";
-import { BooksCard } from "@/components/books-card";
+
 import Books from "./books/page";
 
 export default function Home() {

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Star } from '@/icon/star'
 import { Headphone } from '@/icon/headphone'
-import Link from 'next/link'
 const Books = () => {
   return (
     <div className='flex items-center gap-5 p-10 flex-col'>

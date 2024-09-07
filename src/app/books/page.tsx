@@ -1,7 +1,6 @@
 import React from 'react'
 import { BooksCard } from '@/components/books-card'
 import { booksData } from '@/data/data-server'
-import Link from 'next/link'
 
  const Books = () => {
   return (
